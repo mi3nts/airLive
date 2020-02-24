@@ -10,13 +10,11 @@ nodeID               = "001e06323a06";
 VersionStGrimm       = "Version_RE_2019_06_12";
 VersionStAirMar      = "Version_RE_AirMar2019_09_24";                 
       
-
-
 % startDate  = datetime(2019,04,30);
 % breakDate  = datetime(2019,07,17);
 % endDate    = datetime(2019,08,16);
    
-dataFolderPre   = "/media/teamlary/teamlary3/air930/mintsData"       
+dataFolderPre   = "/home/teamlarylive/minstData"       
  
 % dataFolderPre   = "/media/teamlary/Team_Lary_2/air930/mintsData"
 
@@ -26,14 +24,14 @@ dt      = seconds(30);
 deliverablesFolder = dataFolderPre + "/deliverables"
 calibratedFolder   = dataFolderPre + "/calibrated"
 
-% startDate          = datetime(2019,06,25) ;
+% startDate          = datetime(2019,06,25);
 % endDate            = datetime(2019,07,10);
 
 dataFolder         =  dataFolderPre + "/raw";
 
-mintsDotMats       = "/media/teamlary/teamlary3/air930/mintsData/liveUpdate/dotMats" ;
-liveResultsFolder  = "/media/teamlary/teamlary3/air930/mintsData/liveUpdate/results" ;
-latestUpdateFolder = "/media/teamlary/teamlary3/air930/mintsData/liveUpdate/results" + "/" + nodeID;
+mintsDotMats       = "/home/teamlarylive/minstData/liveUpdate/dotMats" ;
+liveResultsFolder  = "/home/teamlarylive/minstData/liveUpdate/results" ;
+latestUpdateFolder = "/home/teamlarylive/minstData/liveUpdate/results" + "/" + nodeID;
 
 
 % mintsDotMats       = "/media/teamlary/Team_Lary_2/air930/mintsData/liveUpdate/dotMats" ;
@@ -49,7 +47,7 @@ noptimizations    =30;
 
 modelsFolder = modelsFolderPre +"/"+strrep(string(dt)," ","")+"/"
 
-dataFolderPre   = "/media/teamlary/teamlary3/air930/mintsData"
+dataFolderPre   = "/home/teamlarylive/minstData"
 
 % dataFolderPre   = "/media/teamlary/Team_Lary_2/air930/mintsData"
 
