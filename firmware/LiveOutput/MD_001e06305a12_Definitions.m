@@ -33,8 +33,8 @@ dataFolder         =  dataFolderPre + "/raw";
 % latestUpdateFolder = "/media/teamlary/Team_Lary_2/air930/mintsData/liveUpdate/results" + "/" + nodeID;
 
 mintsDotMats       = "/home/teamlarylive/minstData/liveUpdate/dotMats" ;
-liveResultsFolder  = "/home/teamlarylive/minstData/liveUpdate/liveUpdate/results" ;
-latestUpdateFolder = "/home/teamlarylive/minstData/liveUpdate/liveUpdate/results" + "/" + nodeID;
+liveResultsFolder  = "/home/teamlarylive/minstData/liveUpdate/results" ;
+latestUpdateFolder = "/home/teamlarylive/minstData/liveUpdate/results" + "/" + nodeID;
 
 
 
