@@ -10,6 +10,7 @@
     tic
    
     inode =1 ;
+    
     %% Getting Todays Data 
     mints              = getTodaysDataFile(dataFolder,mintsDotMats,nodeID,seconds(30));
 

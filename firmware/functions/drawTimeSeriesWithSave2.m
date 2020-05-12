@@ -15,7 +15,7 @@ function [] = drawTimeSeriesWithSave2(dataX,dataY,nodeID,xLabel,yLabel,titleIn,g
     % Create plot
     plot1 = plot(...
          dataX,...
-         dataY)
+         dataY);
      
     set(plot1,'DisplayName','Data','Marker','.',...
         'LineStyle','none');
@@ -58,13 +58,17 @@ function [] = drawTimeSeriesWithSave2(dataX,dataY,nodeID,xLabel,yLabel,titleIn,g
     
     
     
-    mkdir(fileparts(outFigNamePre));
-    Fig_name = strcat(outFigNamePre,'.png')
+
+    
+    if ~exist(fileparts(outFigNamePre), 'dir')
+        mkdir(fileparts(outFigNamePre));
+    end
+    
+    
+    Fig_name = strcat(outFigNamePre,'.png');
     saveas(figure_1,char(Fig_name));
-   
-%     Fig_name = strcat(outFigNamePre,'.fig')
-%     saveas(figure_1,char(Fig_name));
-% 
+    
+
 
 
 end
